@@ -23,7 +23,6 @@ body {
     background-color: black;
     position: relative;
     z-index: 0;
-    width: 100%;
 }
 
 .header::after {
@@ -78,14 +77,16 @@ body {
     text-align: center;
     line-height: 1.6;
     padding: 22px 0 50px 0;
-
 }
 
 .content {
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
     margin-top: 60px;
-    justify-content: center;
-    gap: 120px;
+    padding: 0 15px 0 15px;
+    justify-content: space-between;
+
 }
 /*--------СЕКЦИЯ СТАТЬИ----------------------------------------------------------------------------*/
 .post {
@@ -198,6 +199,7 @@ p {
 .post-article {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     gap: 20px;
     margin-bottom: 22px;
 }
@@ -207,8 +209,12 @@ p {
 }
 
 .post-article-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 175px;
-    vertical-align: middle;
+    
 
 }
 
