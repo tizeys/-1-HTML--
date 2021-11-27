@@ -84,7 +84,6 @@ body {
 .content {
     display: flex;
     margin-top: 60px;
-    padding: 0 15px 0 15px;
     justify-content: center;
     gap: 120px;
 }
