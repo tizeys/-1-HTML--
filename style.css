@@ -23,6 +23,7 @@ body {
     background-color: black;
     position: relative;
     z-index: 0;
+    min-width: 1007px;
 }
 
 .header::after {
@@ -85,7 +86,7 @@ body {
     width: 100%;
     margin-top: 60px;
     padding: 0 15px 0 15px;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 /*--------СЕКЦИЯ СТАТЬИ----------------------------------------------------------------------------*/
